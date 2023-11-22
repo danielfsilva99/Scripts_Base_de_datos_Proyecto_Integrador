@@ -5,9 +5,9 @@ END
 
 CREATE TABLE Compras
 (
-    id_compra INT PRIMARY KEY,
+    id_compra INT IDENTITY PRIMARY KEY,
 	id_cliente INT,
-    fechaCompra DATE,
+    fecha_Compra DATE,
     detalle NVARCHAR(MAX),
 )
 ALTER TABLE Compras

@@ -14,5 +14,3 @@ ALTER TABLE CuentasBancarias
 ADD CONSTRAINT FK_Cliente_Cuenta
 FOREIGN KEY (id_cliente)
 REFERENCES cliente(id_cliente);
-
-drop table CuentasBancarias
